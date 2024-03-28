@@ -1,0 +1,14 @@
+D:\исп\parser2\parser2\parser2\bin\Debug\net8.0\parser2.exe
+D:\исп\parser2\parser2\parser2\bin\Debug\net8.0\parser2.deps.json
+D:\исп\parser2\parser2\parser2\bin\Debug\net8.0\parser2.runtimeconfig.json
+D:\исп\parser2\parser2\parser2\bin\Debug\net8.0\parser2.dll
+D:\исп\parser2\parser2\parser2\bin\Debug\net8.0\parser2.pdb
+D:\исп\parser2\parser2\parser2\obj\Debug\net8.0\parser2.GeneratedMSBuildEditorConfig.editorconfig
+D:\исп\parser2\parser2\parser2\obj\Debug\net8.0\parser2.AssemblyInfoInputs.cache
+D:\исп\parser2\parser2\parser2\obj\Debug\net8.0\parser2.AssemblyInfo.cs
+D:\исп\parser2\parser2\parser2\obj\Debug\net8.0\parser2.csproj.CoreCompileInputs.cache
+D:\исп\parser2\parser2\parser2\obj\Debug\net8.0\parser2.dll
+D:\исп\parser2\parser2\parser2\obj\Debug\net8.0\refint\parser2.dll
+D:\исп\parser2\parser2\parser2\obj\Debug\net8.0\parser2.pdb
+D:\исп\parser2\parser2\parser2\obj\Debug\net8.0\parser2.genruntimeconfig.cache
+D:\исп\parser2\parser2\parser2\obj\Debug\net8.0\ref\parser2.dll
