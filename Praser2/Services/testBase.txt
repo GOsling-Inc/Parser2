@@ -1,0 +1,29 @@
+﻿val dayOfWeek = day match {
+      case 1  => "asdad"
+      case 2 => {
+         if(aboba) {}
+      }
+      case _  => "sdaasdsdasda"  // default
+}
+
+while(i < 10) {
+      println(i)
+      i += 1
+}
+
+for(i <- 1 to 10 if i % 2 == 0){
+      println(i)
+}
+
+
+if(aboba == ab) {
+   if(xyi) {
+      xuy
+   }
+} else if(aboba == ba) {
+ nixua
+} else {
+  pizda
+}
+
+

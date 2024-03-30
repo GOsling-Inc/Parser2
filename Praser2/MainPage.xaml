@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Praser2.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            VerticalOptions="Start"
+            Padding="20,0,20,0"
+            Spacing="25">
+            <Button
+                x:Name="CounterBtn"
+                Text="Parse Scala"
+                TextTransform="Uppercase"
+                SemanticProperties.Hint="Starts the Program"
+                Clicked="OnClicked"
+                Margin="10"
+                VerticalOptions="Start"
+                HorizontalOptions="Fill" />
+            <Grid ColumnDefinitions="*,*" Margin="10, 0, 10, 0">
+                <CollectionView x:Name="List" Grid.Column="0" Grid.Row="0"/>
+                <VerticalStackLayout x:Name="Metrics" Grid.Column="1" Grid.Row="0">
+                    <Label x:Name="operators" FontSize="14" Margin="10" HorizontalOptions="Center" />
+                    <Label x:Name="cond_operators" FontSize="14" Margin="10" HorizontalOptions="Center" />
+                    <Label x:Name="nesting" FontSize="14" Margin="10" HorizontalOptions="Center" />
+                    <Label x:Name="cl" FontSize="14" Margin="10" HorizontalOptions="Center" />
+                </VerticalStackLayout>
+            </Grid>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
