@@ -15,15 +15,16 @@ for(i <- 1 to 10 if i % 2 == 0){
       println(i)
 }
 
+val i = 2
 
-if(aboba == ab) {
-   if(xyi) {
-      xuy
+if(i == 1337) {
+   if(i == 228) {
+      print('yes')
    }
-} else if(aboba == ba) {
- nixua
+} else if(i == 2) {
+ print('abiba')
 } else {
-  pizda
+  print('aboba')
 }
 
 

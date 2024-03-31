@@ -175,3 +175,4 @@ D:\LabsC#\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64
 D:\LabsC#\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 D:\LabsC#\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 D:\LabsC#\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+D:\LabsC#\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\Praser2.sourcelink.json

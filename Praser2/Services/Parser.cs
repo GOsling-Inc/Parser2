@@ -16,7 +16,7 @@ namespace Services
         public Tuple<List<Item>, int, int, int, float> CountGilbeMetric(string text)
         {
             int countConditions = CountAllCases(text) + CountAllIf(text) + CountAllLoops(text);
-            int allOperators = CountDefaultOperators(text) + countConditions;
+            int allOperators = CountDefaultOperators(text);
             int deepest = FindDeepestNesting(text);
             var ops = new List<Item>
             {
@@ -48,7 +48,7 @@ namespace Services
                 string body = match.Groups[1].Value.Trim();
                 totalCases += CountCases(body) - 1;
             }
-            operators["case"] = totalCases + 1;
+            operators["case"] = totalCases;
             return totalCases;
         }
 
@@ -94,11 +94,11 @@ namespace Services
                 if ( op_matches.Count > 0 )
                     operators[item] = op_matches.Count;
             }
-            Regex point = new(@"[a-zA-Z]+[a-zA-Z0-9_]*(\.)[a-zA-Z]+[a-zA-Z0-9_]*");
+            /*Regex point = new(@"[a-zA-Z]+[a-zA-Z0-9_]*(\.)[a-zA-Z]+[a-zA-Z0-9_]*");
             var matches = point.Matches(code);
             count += matches.Count;
             if ( matches.Count > 0 )
-                operators["."] = matches.Count;
+                operators["."] = matches.Count;*/
             return count;
         }
 
@@ -117,12 +117,16 @@ namespace Services
         private static int CountMatchNesting(string text, int currentNestingLevel)
         {
             int maxNestingLevel = currentNestingLevel;
-            var caseRegex = new Regex(@"\bcase\s+[^=]+[^>+][=][>]\s*(\{*\s*.*\s*\}*)");
+            var caseRegex = new Regex(@"\bcase\s+[^=]+[^>+][=][>]\s*(?:\s*\{((?>(?:(?<DEPTH>{)|(?<-DEPTH>}))|[^{}]+)*(?(DEPTH)(?!)))\}|(.*))");
             var matches = caseRegex.Matches(text);
+            int matchLevel = 0;
             foreach (Match match in matches)
             {
                 string caseBody = match.Groups[1].Value.Trim();
-                maxNestingLevel = Math.Max(maxNestingLevel, CountNestingLevel(caseBody, currentNestingLevel + 1));
+                if (caseBody.Length == 0)
+                    caseBody = match.Groups[2].Value.Trim();
+                maxNestingLevel = Math.Max(maxNestingLevel, CountNestingLevel(caseBody, matchLevel + 1));
+                ++matchLevel;
             }
             return maxNestingLevel;
         }
@@ -134,10 +138,10 @@ namespace Services
             var nestedRegex = new Regex(@"\b(else if|if|match|else|for|while)\s*\(*(.*?)\)*\s*{((?:{(?<DEPTH>)|(?<-DEPTH>})|(?>[^{}]+))*(?(DEPTH)(?!)))\}");
             var nestedMatches = nestedRegex.Matches(body);
 
+            if (nestedMatches.Count == 0) return 0;
 
             foreach (Match nestedMatch in nestedMatches)
             {
-                string operatorType = nestedMatch.Groups[1].Value;
                 string nestedBody = nestedMatch.Groups[3].Value.Trim();
 
                 int nestingLevel = CountNestingLevel(nestedBody, currentNestingLevel + 1);

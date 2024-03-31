@@ -75,27 +75,35 @@
       println("bold")
     } else if(5 < 8) {
       println("5 < 8")
-    }
-
-    if (yellow.equalsIgnoreCase("Yellow")) {
+    } else if (yellow.equalsIgnoreCase("Yellow")) {
       println("yellow")
-    }
-    if (yellow =="yellow") {
+    } else if (yellow =="yellow") {
       println("yellow")
     } else {
        isBold = false
     }
 
-    val day : Int = 5
+    val day : Int = 2
 
-    val dayOfWeek = day match {
+    val text = t match {
       case 1  => "asdad"
-      case 2  => "asdads"
-      case 3  => "dasasd"
-      case 4  => "asdads"
-      case 5  => "asdasdads"
-      case 6  => "asdsda"
-      case 7  => "dasasd"
+      case 2  => {
+            if(isBold) {
+              return "BOLD"
+            } else {
+              return "NOT BOLD"
+            }
+      }
+      case 3 => {
+         print('3')
+         return "gasga"
+      }
+      case 4 => {
+         if(!isBold) {
+            return "Not bold"
+         }
+         return "4"
+      }
       case _  => "sdaasdsdasda"  // default
     }
 

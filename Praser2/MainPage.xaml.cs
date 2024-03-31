@@ -13,18 +13,19 @@ namespace Praser2
             parser = new Parser();
             var template = new DataTemplate(() =>
             {
-                var index = new Label { FontSize = 14, Margin = 10, HorizontalOptions = LayoutOptions.Center };
+                var index = new Label { FontSize = 14, Margin = 10, TextColor = Color.Parse("black"), HorizontalOptions = LayoutOptions.Center };
                 index.SetBinding(Label.TextProperty, new Binding { Path = "Index", StringFormat = "{0}" });
 
-                var name = new Label { FontSize = 14, Margin = 10, HorizontalOptions = LayoutOptions.Center };
+                var name = new Label { FontSize = 14, Margin = 10, TextColor = Color.Parse("black"), HorizontalOptions = LayoutOptions.Center };
                 name.SetBinding(Label.TextProperty, new Binding { Path = "Name", StringFormat = "{0}" });
 
-                var count = new Label { FontSize = 14, Margin = 10, HorizontalOptions = LayoutOptions.Center };
+                var count = new Label { FontSize = 14, Margin = 10, TextColor = Color.Parse("black"), HorizontalOptions = LayoutOptions.Center };
                 count.SetBinding(Label.TextProperty, new Binding { Path = "Count", StringFormat = "{0}" });
 
                 var grid = new Grid
                 {
-                    Padding = 5
+                    Padding = 5,
+                    BackgroundColor = Color.Parse("white"),
                 };
                 grid.Add(index, 0, 0);
                 grid.Add(name, 1, 0);
@@ -52,9 +53,9 @@ namespace Praser2
             var results = parser.CountGilbeMetric(text);
             List.ItemsSource = results.Item1;
             operators.Text = $"Общее количество операторов: {results.Item2}";
-            cond_operators.Text = $"Количество условных операторов: {results.Item3}";
-            nesting.Text = $"Максимальный уровень вложенности условного оператора: {results.Item4}";
-            cl.Text = $"Насыщенность программы условными операторами: {results.Item5}";
+            cond_operators.Text = $"Количество условных операторов (CL): {results.Item3}";
+            nesting.Text = $"Максимальный уровень вложенности условного оператора (CLI): {results.Item4}";
+            cl.Text = $"Насыщенность программы условными операторами (cl): {results.Item5}";
         }
     }
 
