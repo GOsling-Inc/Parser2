@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mrQi8sBQ1kbnnzNaLqsrX4Cs0YgqdKOFA285U0zUo6zH6waSatIR9uZ29DJLLfGctNJH4a/wrMSFOsL44yzSow==",
+  "dgSpecHash": "CKSArdEJKuI91fgjN7ulu230hmH93ztPX/kNn7t+IWT1AqoW6UhAv9HFIp/0wLE8qxt1nd8bHhp8W5RdOf1Kig==",
   "success": true,
-  "projectFilePath": "D:\\LabsC#\\parser2\\Praser2\\Praser2\\Praser2.csproj",
+  "projectFilePath": "D:\\METRA\\parser2\\Praser2\\Praser2\\Praser2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\misti\\.nuget\\packages\\googlegson\\2.10.1.4\\googlegson.2.10.1.4.nupkg.sha512",
     "C:\\Users\\misti\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",

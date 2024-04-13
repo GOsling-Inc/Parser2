@@ -10,7 +10,7 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>com.companyname.praser2</PackageIdentityName>
     <PackageIdentityPublisher>CN=User Name</PackageIdentityPublisher>
-    <IntermediateOutputPath>D:\LabsC#\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
+    <IntermediateOutputPath>D:\METRA\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath>
     </PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>
     </WindowsSdkPath>
-    <LayoutDir>D:\LabsC#\parser2\Praser2\Praser2\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
+    <LayoutDir>D:\METRA\parser2\Praser2\Praser2\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
     <RegisteredManifestChecksum>5AAF5DA0F2F5E6C863681834EC67CC1A78D086E89BA3CEA64A121CCFE8B4A8CC</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>com.companyname.praser2_1.0.0.1_x64__9zz4h110yvjzm</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>com.companyname.praser2_9zz4h110yvjzm!App</RegisteredUserModeAppID>
@@ -27,268 +27,268 @@
     <RegisteredVersion>1.0.0.1</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="D:\LabsC#\parser2\Praser2\Praser2\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
+    <AppXManifest Include="D:\METRA\parser2\Praser2\Praser2\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-03-31T11:38:47.250</Modified>
+      <Modified>2024-04-01T08:12:24.705</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="D:\LabsC#\parser2\Praser2\Praser2\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
+    <AppxPackagedFile Include="D:\METRA\parser2\Praser2\Praser2\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-03-31T10:59:51.607</Modified>
+      <Modified>2024-04-01T08:12:24.611</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LabsC#\parser2\Praser2\Praser2\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Praser2.runtimeconfig.json">
+    <AppxPackagedFile Include="D:\METRA\parser2\Praser2\Praser2\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Praser2.runtimeconfig.json">
       <PackagePath>Praser2.runtimeconfig.json</PackagePath>
-      <Modified>2024-03-30T10:54:16.457</Modified>
+      <Modified>2024-04-01T08:01:14.284</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LabsC#\parser2\Praser2\Praser2\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Praser2.dll">
+    <AppxPackagedFile Include="D:\METRA\parser2\Praser2\Praser2\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Praser2.dll">
       <PackagePath>Praser2.dll</PackagePath>
-      <Modified>2024-03-31T11:38:46.437</Modified>
+      <Modified>2024-04-01T08:11:38.152</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LabsC#\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
+    <AppxPackagedFile Include="D:\METRA\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Praser2.exe</PackagePath>
-      <Modified>2024-03-31T11:38:46.447</Modified>
+      <Modified>2024-04-01T08:11:38.422</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LabsC#\parser2\Praser2\Praser2\Resources\Raw\AboutAssets.txt">
+    <AppxPackagedFile Include="D:\METRA\parser2\Praser2\Praser2\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
       <Modified>2024-03-30T07:19:36.293</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LabsC#\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
+    <AppxPackagedFile Include="D:\METRA\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
       <Modified>2024-03-30T07:19:57.721</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LabsC#\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
+    <AppxPackagedFile Include="D:\METRA\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
       <Modified>2024-03-30T07:19:57.736</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LabsC#\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
+    <AppxPackagedFile Include="D:\METRA\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
       <Modified>2024-03-30T07:19:57.752</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LabsC#\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
+    <AppxPackagedFile Include="D:\METRA\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
       <Modified>2024-03-30T07:19:57.783</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LabsC#\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
+    <AppxPackagedFile Include="D:\METRA\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
       <Modified>2024-03-30T07:19:57.862</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LabsC#\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
+    <AppxPackagedFile Include="D:\METRA\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
       <Modified>2024-03-30T07:19:36.289</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LabsC#\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
+    <AppxPackagedFile Include="D:\METRA\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
       <Modified>2024-03-30T07:19:36.292</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LabsC#\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
+    <AppxPackagedFile Include="D:\METRA\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
       <Modified>2024-03-30T07:19:58.020</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LabsC#\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
+    <AppxPackagedFile Include="D:\METRA\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
       <Modified>2024-03-30T07:19:58.336</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LabsC#\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
+    <AppxPackagedFile Include="D:\METRA\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
       <Modified>2024-03-30T07:19:58.352</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LabsC#\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
+    <AppxPackagedFile Include="D:\METRA\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
       <Modified>2024-03-30T07:19:58.367</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LabsC#\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
+    <AppxPackagedFile Include="D:\METRA\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
       <Modified>2024-03-30T07:19:58.399</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LabsC#\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
+    <AppxPackagedFile Include="D:\METRA\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
       <Modified>2024-03-30T07:19:58.479</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LabsC#\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
+    <AppxPackagedFile Include="D:\METRA\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
       <Modified>2024-03-30T07:19:58.115</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LabsC#\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
+    <AppxPackagedFile Include="D:\METRA\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
       <Modified>2024-03-30T07:19:58.115</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LabsC#\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
+    <AppxPackagedFile Include="D:\METRA\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
       <Modified>2024-03-30T07:19:58.132</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LabsC#\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
+    <AppxPackagedFile Include="D:\METRA\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
       <Modified>2024-03-30T07:19:58.124</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LabsC#\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
+    <AppxPackagedFile Include="D:\METRA\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
       <Modified>2024-03-30T07:19:58.126</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LabsC#\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="D:\METRA\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
       <Modified>2024-03-30T07:19:58.092</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LabsC#\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
+    <AppxPackagedFile Include="D:\METRA\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
       <Modified>2024-03-30T07:19:58.092</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LabsC#\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="D:\METRA\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
       <Modified>2024-03-30T07:19:58.103</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LabsC#\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
+    <AppxPackagedFile Include="D:\METRA\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
       <Modified>2024-03-30T07:19:58.100</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LabsC#\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="D:\METRA\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
       <Modified>2024-03-30T07:19:58.103</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LabsC#\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
+    <AppxPackagedFile Include="D:\METRA\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
       <Modified>2024-03-30T07:19:58.036</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LabsC#\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
+    <AppxPackagedFile Include="D:\METRA\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
       <Modified>2024-03-30T07:19:58.044</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LabsC#\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
+    <AppxPackagedFile Include="D:\METRA\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
       <Modified>2024-03-30T07:19:58.048</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LabsC#\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\METRA\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
       <Modified>2024-03-30T07:19:58.053</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LabsC#\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
+    <AppxPackagedFile Include="D:\METRA\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
       <Modified>2024-03-30T07:19:58.053</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LabsC#\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
+    <AppxPackagedFile Include="D:\METRA\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
       <Modified>2024-03-30T07:19:58.067</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LabsC#\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
+    <AppxPackagedFile Include="D:\METRA\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
       <Modified>2024-03-30T07:19:58.070</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LabsC#\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
+    <AppxPackagedFile Include="D:\METRA\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
       <Modified>2024-03-30T07:19:58.083</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LabsC#\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
+    <AppxPackagedFile Include="D:\METRA\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
       <Modified>2024-03-30T07:19:58.076</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LabsC#\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
+    <AppxPackagedFile Include="D:\METRA\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
       <Modified>2024-03-30T07:19:58.079</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LabsC#\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
+    <AppxPackagedFile Include="D:\METRA\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
       <Modified>2024-03-30T07:19:58.194</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LabsC#\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
+    <AppxPackagedFile Include="D:\METRA\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
       <Modified>2024-03-30T07:19:58.194</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LabsC#\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
+    <AppxPackagedFile Include="D:\METRA\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
       <Modified>2024-03-30T07:19:58.210</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LabsC#\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
+    <AppxPackagedFile Include="D:\METRA\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
       <Modified>2024-03-30T07:19:58.210</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LabsC#\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
+    <AppxPackagedFile Include="D:\METRA\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
       <Modified>2024-03-30T07:19:58.241</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LabsC#\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
+    <AppxPackagedFile Include="D:\METRA\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
       <Modified>2024-03-30T07:19:58.163</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LabsC#\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
+    <AppxPackagedFile Include="D:\METRA\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
       <Modified>2024-03-30T07:19:58.163</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LabsC#\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
+    <AppxPackagedFile Include="D:\METRA\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
       <Modified>2024-03-30T07:19:58.163</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LabsC#\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
+    <AppxPackagedFile Include="D:\METRA\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
       <Modified>2024-03-30T07:19:58.179</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LabsC#\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
+    <AppxPackagedFile Include="D:\METRA\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
       <Modified>2024-03-30T07:19:58.179</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LabsC#\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
+    <AppxPackagedFile Include="D:\METRA\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
       <Modified>2024-03-30T07:19:58.142</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LabsC#\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
+    <AppxPackagedFile Include="D:\METRA\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
       <Modified>2024-03-30T07:19:58.142</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LabsC#\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
+    <AppxPackagedFile Include="D:\METRA\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
       <Modified>2024-03-30T07:19:58.148</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LabsC#\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\METRA\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
       <Modified>2024-03-30T07:19:58.148</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LabsC#\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
+    <AppxPackagedFile Include="D:\METRA\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
       <Modified>2024-03-30T07:19:58.148</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LabsC#\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
+    <AppxPackagedFile Include="D:\METRA\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
       <Modified>2024-03-30T07:19:58.257</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LabsC#\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
+    <AppxPackagedFile Include="D:\METRA\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
       <Modified>2024-03-30T07:19:58.261</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LabsC#\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
+    <AppxPackagedFile Include="D:\METRA\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
       <Modified>2024-03-30T07:19:58.274</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LabsC#\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
+    <AppxPackagedFile Include="D:\METRA\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
       <Modified>2024-03-30T07:19:58.289</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LabsC#\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
+    <AppxPackagedFile Include="D:\METRA\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
       <Modified>2024-03-30T07:19:58.336</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LabsC#\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
+    <AppxPackagedFile Include="D:\METRA\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
       <Modified>2024-03-30T07:19:58.020</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LabsC#\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
+    <AppxPackagedFile Include="D:\METRA\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
       <Modified>2024-03-30T07:19:58.036</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LabsC#\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
+    <AppxPackagedFile Include="D:\METRA\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
       <Modified>2024-03-30T07:19:58.051</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LabsC#\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
+    <AppxPackagedFile Include="D:\METRA\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
       <Modified>2024-03-30T07:19:58.070</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LabsC#\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
+    <AppxPackagedFile Include="D:\METRA\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
       <Modified>2024-03-30T07:19:58.124</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LabsC#\parser2\Praser2\Praser2\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Praser2.deps.json">
+    <AppxPackagedFile Include="D:\METRA\parser2\Praser2\Praser2\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Praser2.deps.json">
       <PackagePath>Praser2.deps.json</PackagePath>
-      <Modified>2024-03-30T10:54:16.447</Modified>
+      <Modified>2024-04-01T08:01:14.221</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\misti\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>

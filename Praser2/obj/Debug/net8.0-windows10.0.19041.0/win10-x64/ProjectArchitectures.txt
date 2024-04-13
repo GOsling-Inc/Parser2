@@ -1,1 +1,1 @@
-D:\LabsC#\parser2\Praser2\Praser2\Praser2.csproj;x64
+D:\METRA\parser2\Praser2\Praser2\Praser2.csproj;x64

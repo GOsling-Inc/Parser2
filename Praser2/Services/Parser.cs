@@ -12,6 +12,7 @@ namespace Services
     {
         readonly string[] allOperators = [";", "+", "-", "*", "/", "%", "**", "==", "!=", ">", "<", ">=", "<=", "&&", "||", "!", "&", "|", "=", "+=", "-=", "*=", "/=", "%=", "**=", "<<=", ">>=", "&=", "^=", "|=", "^", "<<", ">>", "~", ">>>"];
         static Dictionary<string, int> operators = [];
+        static bool hasDefault = false;
         public Parser() { }
         public Tuple<List<Item>, int, int, int, float> CountGilbeMetric(string text)
         {
@@ -31,9 +32,11 @@ namespace Services
 
         private static int CountCases(string text)
         {
-            var caseRegex = new Regex(@"\b(case)\b");
+            var caseRegex = new Regex(@"\b(case)\b\s\w");
             var matches = caseRegex.Matches(text);
-            return matches.Count;
+            if (matches[matches.Count - 1].ToString()[matches[matches.Count - 1].ToString().Length - 1] == '_') hasDefault = true;
+            if (hasDefault) return matches.Count;
+            return matches.Count + 1;
         }
 
         private static int CountAllCases(string text)
@@ -168,7 +171,7 @@ namespace Services
                 string body = match.Groups[3].Value.Trim();
                 int nestingLevel = 0;
                 if (operatorType == "match")
-                    nestingLevel = CountMatchNesting(body, CountCases(body) - 2);
+                    nestingLevel = CountMatchNesting(body, CountCases(body) - (!hasDefault ? 2 : 1));
                 else
                     nestingLevel = CountNestingLevel(body, 0);
 

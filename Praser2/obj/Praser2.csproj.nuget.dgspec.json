@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\LabsC#\\parser2\\Praser2\\Praser2\\Praser2.csproj": {}
+    "D:\\METRA\\parser2\\Praser2\\Praser2\\Praser2.csproj": {}
   },
   "projects": {
-    "D:\\LabsC#\\parser2\\Praser2\\Praser2\\Praser2.csproj": {
+    "D:\\METRA\\parser2\\Praser2\\Praser2\\Praser2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\LabsC#\\parser2\\Praser2\\Praser2\\Praser2.csproj",
+        "projectUniqueName": "D:\\METRA\\parser2\\Praser2\\Praser2\\Praser2.csproj",
         "projectName": "Praser2",
-        "projectPath": "D:\\LabsC#\\parser2\\Praser2\\Praser2\\Praser2.csproj",
+        "projectPath": "D:\\METRA\\parser2\\Praser2\\Praser2\\Praser2.csproj",
         "packagesPath": "C:\\Users\\misti\\.nuget\\packages\\",
-        "outputPath": "D:\\LabsC#\\parser2\\Praser2\\Praser2\\obj\\",
+        "outputPath": "D:\\METRA\\parser2\\Praser2\\Praser2\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
