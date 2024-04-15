@@ -34,9 +34,10 @@ namespace Services
         {
             var caseRegex = new Regex(@"\b(case)\b\s\w");
             var matches = caseRegex.Matches(text);
-            if (matches[matches.Count - 1].ToString()[matches[matches.Count - 1].ToString().Length - 1] == '_') hasDefault = true;
-            if (hasDefault) return matches.Count;
-            return matches.Count + 1;
+            var totalCases = matches.Count;
+            if (matches[^1].ToString()[^1] == '_') hasDefault = true;
+            if (hasDefault) return totalCases;
+            return totalCases + 1;
         }
 
         private static int CountAllCases(string text)
@@ -66,7 +67,7 @@ namespace Services
                     operators[match.ToString()]++;
                 else operators["else if"]++;
             }
-            return matches.Count;
+            return matches.Count - operators["else"];
         }
 
         private static int CountAllLoops(string text)
@@ -129,7 +130,8 @@ namespace Services
                 if (caseBody.Length == 0)
                     caseBody = match.Groups[2].Value.Trim();
                 maxNestingLevel = Math.Max(maxNestingLevel, CountNestingLevel(caseBody, matchLevel + 1));
-                ++matchLevel;
+                if(match != matches[^2] || (!hasDefault && match == matches[^2]))
+                    ++matchLevel;
             }
             return maxNestingLevel;
         }
@@ -171,9 +173,9 @@ namespace Services
                 string body = match.Groups[3].Value.Trim();
                 int nestingLevel = 0;
                 if (operatorType == "match")
-                    nestingLevel = CountMatchNesting(body, CountCases(body) - (!hasDefault ? 2 : 1));
+                    nestingLevel = CountMatchNesting(body, CountCases(body) - 2);
                 else
-                    nestingLevel = CountNestingLevel(body, 0);
+                    nestingLevel = CountNestingLevel(body, 1);
 
                 maxNestingLevel = Math.Max(maxNestingLevel, nestingLevel);
             }

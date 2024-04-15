@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\METRA\parser2\Praser2\Praser2\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-04-01T08:12:24.705</Modified>
+      <Modified>2024-04-15T05:54:05.671</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\METRA\parser2\Praser2\Praser2\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-04-01T08:12:24.611</Modified>
+      <Modified>2024-04-15T05:54:05.593</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\METRA\parser2\Praser2\Praser2\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Praser2.runtimeconfig.json">
       <PackagePath>Praser2.runtimeconfig.json</PackagePath>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\METRA\parser2\Praser2\Praser2\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Praser2.dll">
       <PackagePath>Praser2.dll</PackagePath>
-      <Modified>2024-04-01T08:11:38.152</Modified>
+      <Modified>2024-04-15T05:54:05.310</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\METRA\parser2\Praser2\Praser2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Praser2.exe</PackagePath>
-      <Modified>2024-04-01T08:11:38.422</Modified>
+      <Modified>2024-04-15T05:54:05.420</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\METRA\parser2\Praser2\Praser2\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
