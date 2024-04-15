@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Praser2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+571ee5918b7a5ebec2eb8dd3c0c075a77da15d27")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+6dbd3f08f40560cd4e869d942e5335bc385d6baa")]
 [assembly: System.Reflection.AssemblyProductAttribute("Praser2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Praser2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

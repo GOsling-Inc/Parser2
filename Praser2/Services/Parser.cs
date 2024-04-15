@@ -17,7 +17,7 @@ namespace Services
         public Tuple<List<Item>, int, int, int, float> CountGilbeMetric(string text)
         {
             int countConditions = CountAllCases(text) + CountAllIf(text) + CountAllLoops(text);
-            int allOperators = CountDefaultOperators(text);
+            int allOperators = CountDefaultOperators(text) + countConditions;
             int deepest = FindDeepestNesting(text);
             var ops = new List<Item>
             {
@@ -112,7 +112,7 @@ namespace Services
             int maxCountedCases = 0;
             foreach (Match match in matchRegex.Matches(text))
             {
-                string body = match.Groups[2].Value.Trim();
+                string body = match.Groups[1].Value.Trim();
                 maxCountedCases = Math.Max(CountMatchNesting(body, maxCountedCases), maxCountedCases);
             }
             return maxCountedCases;
@@ -155,7 +155,7 @@ namespace Services
 
             if (body.Contains("match"))
             {
-                int switchDepth = CountCases(body) + DeepestMatchStatements(body) - 2 + currentNestingLevel;
+                int switchDepth = DeepestMatchStatements(body) + currentNestingLevel;
                 maxNestingLevel = Math.Max(maxNestingLevel, switchDepth);
             }
 
